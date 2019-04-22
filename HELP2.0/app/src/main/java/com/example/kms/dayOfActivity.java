@@ -42,7 +42,7 @@ public class dayOfActivity extends AppCompatActivity
                 // inflate the layout of the popup window
                 LayoutInflater inflater = (LayoutInflater)
                         getSystemService(LAYOUT_INFLATER_SERVICE);
-                View popupView = inflater.inflate(R.layout.dayofpopup, null);
+                /*View popupView = inflater.inflate(R.layout.dayofpopup, null);
 
                 // create the popup window
                 int width = LinearLayout.LayoutParams.WRAP_CONTENT;
@@ -61,7 +61,10 @@ public class dayOfActivity extends AppCompatActivity
                         popupWindow.dismiss();
                         return true;
                     }
-                });
+                });*/
+
+                Intent addItem = new Intent(dayOfActivity.this, addItem.class);
+                startActivity(addItem);
 
             }
         });

@@ -11,19 +11,19 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".dayOfActivity"
-            android:label="Marianne"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".historyActivity"
-            android:label="Christian"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".calorieActivity"
-            android:label="Justin"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".addItem"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
             android:name=".MainActivity"
-            android:label="Jonathan"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
