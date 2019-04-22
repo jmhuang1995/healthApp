@@ -29,5 +29,11 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_input_add" />
+        app:backgroundTint="@color/colorAccent"
+        app:fabCustomSize="48dp"
+        app:fabSize="auto"
+        app:maxImageSize="64dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:useCompatPadding="false" />
 
 </android.support.design.widget.CoordinatorLayout>

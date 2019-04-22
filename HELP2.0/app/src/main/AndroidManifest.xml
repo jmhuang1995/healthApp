@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kms">
+    package="com.example.Foodorie">
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".dayOfActivity"
+            android:name="com.example.Foodorie.dayOfActivity"
+            android:label="@string/app_bar_title"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <activity
@@ -25,6 +27,16 @@
 
         <activity
             android:name=".MainActivity"
+            android:name="com.example.Foodorie.historyActivity"
+            android:label="@string/app_bar_title"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.Foodorie.calorieActivity"
+            android:label="@string/app_bar_title"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.Foodorie.MainActivity"
+            android:label="@string/app_bar_title"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
